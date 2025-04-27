@@ -32,11 +32,11 @@
 .container-div2 {
     display: grid;
     grid-template-areas: 
-        "items1 items1 items2 items3 items4 items4"
-        "items1 items1 items2 items9 items10 items11"
-        "items5 items6 items2 items9 items12 items12"
-        "items5 items7 items2 items9 items12 items12"
-        "items8 items8 items13 items13 items14 items14";
+        "items1 items1 items2 items3 items4 items4 items4"
+        "items1 items1 items2 items9 items10 items11 items11"
+        "items5 items6 items2 items9 items12  items12 items12"
+        "items5 items7 items2 items9 items12 items12 items12"
+        "items8 items8 items13 items13 items14 items14 items14";
     gap: 9px;
     height: 100%;
 }

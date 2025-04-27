@@ -23,53 +23,91 @@
     font-size: x-large;
 }  
 .container2{
-    display:grid;
+    grid-template-columns: repeat(1, 1fr); 
+    height: 20rem;
+    padding: 5%;
+}
 
+
+.container-div2 {
+    display: grid;
+    grid-template-areas: 
+        "items1 items1 items2 items3 items4 items4"
+        "items1 items1 items2 items9 items10 items11"
+        "items5 items6 items2 items9 items12 items12"
+        "items5 items7 items2 items9 items12 items12"
+        "items8 items8 items13 items13 items14 items14";
+    gap: 9px;
+    height: 100%;
 }
-.items1{
-    background-color:blueviolet;
-    grid-row: 1 / span 2;
-  }
-.items2{
+
+.items1 {
+    background-color: blueviolet;
+    grid-area: items1;
+    border-radius: 5%;
+}
+.items2 {
     background-color: green;
-    grid-row: 1 / span 3;
+    grid-area: items2;
+    border-radius: 5%;
 }
-.items3{
+.items3 {
     background-color: #59aae7;
-    grid-row: 1 / span 1;
-
+    grid-area: items3;
+    border-radius: 5%;
 }
-.items4{
+.items4 {
     background-color: green;
-    grid-row: 1 / span 1;
+    grid-area: items4;
+    border-radius: 5%;
 }
-.items5{
-
+.items5 {
+    background-color: green;
+    grid-area: items5;
+    border-radius: 5%;
 }
-.items6{
-
+.items6 {
+    background-color: #59aae7;
+    grid-area: items6;
+    border-radius: 5%;
 }
-.items7{
-
+.items7 {
+    background-color: #e74f32;
+    grid-area: items7;
+    border-radius: 5%;
 }
-.items8{
-
+.items8 {
+    background-color: green;
+    grid-area: items8;
+    border-radius: 5%;
 }
-.items9{
-
+.items9 {
+    background-color: #e74f32;
+    grid-area: items9;
+    border-radius: 5%;
 }
-.items10{
-
+.items10 {
+    background-color: #59aae7;
+    grid-area: items10;
+    border-radius: 5%;
 }
-.items11{
-
+.items11 {
+    background-color: #e74f32;
+    grid-area: items11;
+    border-radius: 5%;
 }
-.items12{
-
+.items12 {
+    background-color: blueviolet;
+    grid-area: items12;
+    border-radius: 5%;
 }
-.items13{
-
+.items13 {
+    background-color: blueviolet;
+    grid-area: items13;
+    border-radius: 5%;
 }
-.items14{
-
+.items14 {
+    background-color: #59aae7;
+    grid-area: items14;
+    border-radius: 5%;
 }
